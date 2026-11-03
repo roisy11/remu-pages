@@ -138,3 +138,18 @@ li {
 .site-footer p {
   margin: 10px 0 0;
 }
+
+.lang {
+  margin-top: 10px;
+  font-size: 0.85rem;
+}
+
+.lang a {
+  margin-right: 12px;
+}
+
+.lang a[aria-current="page"] {
+  color: var(--fg);
+  text-decoration: none;
+  font-weight: 600;
+}
